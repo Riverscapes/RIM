@@ -15,7 +15,7 @@ import time
 import datetime
 arcpy.CheckOutExtension('Spatial')
 
-cfg = ModelConfig('http://xml.riverscapes.xyz/Projects/XSD/V1/Inundation.xsd')
+cfg = ModelConfig('http://xml.riverscapes.net/Projects/XSD/V1/Inundation.xsd')
 
 # Functions from BAAT
 

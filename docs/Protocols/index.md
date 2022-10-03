@@ -69,7 +69,7 @@ To characterize more dynamic hydrogeomorphic attributes such as planform changes
 
 #### Attribute Thalweg or Centerline Type
 
-Each thalweg or centerline type should be determined based on the following definitions that were adapted from the definitions used for the [Geomorphic Unit Tool (GUT)] (http://gut.riverscapes.xyz/)
+Each thalweg or centerline type should be determined based on the following definitions that were adapted from the definitions used for the [Geomorphic Unit Tool (GUT)] (http://gut.riverscapes.net/)
 
 - **Main**: the thalweg that follows the primary anabranch
 - **Anabranch**: thalwegs that follow a fully formed (i.e. has an active channel bed) secondary anabranch that is longer than an estimated 2 bankfull widths

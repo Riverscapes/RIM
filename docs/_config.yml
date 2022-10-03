@@ -59,21 +59,21 @@ settings:
         - title: "Model Home"
           url: index
         - title: "Riverscapes Home"
-          url: http://riverscapes.xyz
+          url: http://riverscapes.net
         - title: "About Riverscapes"
-          url: http://riverscapes.xyz/about.html
+          url: http://riverscapes.net/about.html
         - title: "Who We Are"
-          url: http://riverscapes.xyz/who-we-are.html
+          url: http://riverscapes.net/who-we-are.html
         - title: "News"
-          url: http://riverscapes.xyz/news.html
+          url: http://riverscapes.net/news.html
     - title: "RC Tools"
-      url: https://riverscapes.xyz/Tools/
+      url: https://riverscapes.net/Tools/
     - title: "RC Science"
-      url: http://riverscapes.xyz/Science/
+      url: http://riverscapes.net/Science/
     - title: "RC Data"
-      url: https://riverscapes.xyz/Data_Warehouses/
+      url: https://riverscapes.net/Data_Warehouses/
     - title: "RC Help"
-      url: http://riverscapes.xyz/support.html
+      url: http://riverscapes.net/support.html
 
 # Redirecting from apps can be tricky so we use a key-value system
 # key: must be in the set [A-Za-z0-9_] (no spaces, no dashes)

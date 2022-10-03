@@ -20,7 +20,7 @@ import numpy as np
 arcpy.env.overwriteOutput = True
 arcpy.CheckOutExtension('Spatial')
 
-cfg = ModelConfig('http://xml.riverscapes.xyz/Projects/XSD/V1/Inundation.xsd')
+cfg = ModelConfig('http://xml.riverscapes.net/Projects/XSD/V1/Inundation.xsd')
 
 
 def calculate_metrics(project_path, RS_folder_name, DEM, mapper, project_name, site_name, DCE1_name, DCE1_date, DCE1_image_source, DCE2_image_source, DCE1_date_name, DCE2_date_name, DCE1_flow_stage, DCE1_active, DCE1_maintained, DCE2_name, DCE2_date, DCE2_flow_stage, DCE2_active, DCE2_maintained, DCE1_res, DCE2_res, setting, huc8):
@@ -509,7 +509,7 @@ def calculate_metrics(project_path, RS_folder_name, DEM, mapper, project_name, s
         arcpy.SelectLayerByAttribute_management(in_layer_or_view='inun_union', selection_type="SUBSET_SELECTION", where_clause='\"area\" > 1')
         holes = int(arcpy.GetCount_management('inun_union').getOutput(0))
         arcpy.CopyFeatures_management('inun_union', os.path.join(DCE, 'inun_holes.shp'))
-        print (holes, "holes")
+        print(holes, "holes")
         island_num = holes
 
         # add fields to inundation shapefile

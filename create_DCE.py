@@ -20,7 +20,7 @@ from lib.loghelper import Logger
 import time
 import datetime
 
-cfg = ModelConfig('http://xml.riverscapes.xyz/Projects/XSD/V1/Inundation.xsd')
+cfg = ModelConfig('http://xml.riverscapes.net/Projects/XSD/V1/Inundation.xsd')
 
 # function for create files
 
@@ -28,11 +28,11 @@ cfg = ModelConfig('http://xml.riverscapes.xyz/Projects/XSD/V1/Inundation.xsd')
 def new_DCE(srs_template, project_path, AP_fold, DCE_fold, image_path):
 
     #    LayerTypes = {
-        # RSLayer(name, id, tag, rel_path)
-        # 'AP_new': RSLayer(date_name, AP_fold, 'Raster', os.path.join('01_Inputs/01_Imagery', AP_fold, 'imagery.tif')),
-        # 'INUN_new': RSLayer('Inundation', 'DCE_01_inun', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/inundation.shp')),
-        # 'DAM_CREST_new': RSLayer('Dam Crests', 'DCE_01_damcrests', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/dam_crests.shp')),
-        # 'TWG_new': RSLayer('Thalwegs', 'DCE_01_thalwegs', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/thalwegs.shp'))
+    # RSLayer(name, id, tag, rel_path)
+    # 'AP_new': RSLayer(date_name, AP_fold, 'Raster', os.path.join('01_Inputs/01_Imagery', AP_fold, 'imagery.tif')),
+    # 'INUN_new': RSLayer('Inundation', 'DCE_01_inun', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/inundation.shp')),
+    # 'DAM_CREST_new': RSLayer('Dam Crests', 'DCE_01_damcrests', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/dam_crests.shp')),
+    # 'TWG_new': RSLayer('Thalwegs', 'DCE_01_thalwegs', 'Vector', os.path.join('03_Analysis', DCE_fold, 'Shapefiles/thalwegs.shp'))
     # }
 
     #log = Logger('edit_xml')
