@@ -2,13 +2,16 @@
 title: Example RIM Data from Bartelt (2021)
 ---
 
-<a href="https://digitalcommons.usu.edu/etd/8226/"><img class="float-right" src="{{ site.baseurl }}/assets/images/RIM_03.png"></a>  All of the 37 sites reported in Baretlt (2021) are packaged into [**riverscapes projects** <img src="https://riverscapes.net/assets/images/data/RiverscapesProject_24.png">](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/), which can be viewed in the Web Riverscapes Viewer, or [Riverscapes Viewers](https://rave.riverscapes.net) in your GIS. You will need a [free Riverscapes Consortium account to view]().
+<a href="https://digitalcommons.usu.edu/etd/8226/"><img class="float-right" src="{{ site.baseurl }}/assets/images/RIM_03.png"></a>  All of the 37 sites reported in Baretlt (2021) are packaged into [**riverscapes projects** <img src="https://riverscapes.net/assets/images/data/RiverscapesProject_24.png">](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/), which can be viewed in the Web Riverscapes Viewer, or [Riverscapes Viewers](https://rave.riverscapes.net) in your GIS. You will need a [free Riverscapes Consortium account to view](https://riverscapes.net/Data_Warehouses/signup.html).
 
 <div align="center"><a href="https://webrave.riverscapes.net/#/USFS_PIBO/f8aa96b1-0d95-49c6-b82d-03a0b7842cac"><img  src="{{ site.baseurl }}/assets/images/SummitCreek_WebRV.png"></a>
 <br>
 <i>Example of a RIM project (Summit Creek, Idaho) visualized in web Riverscapes Viewer. The project can also be downloaded and used in desktop GIS with QRV and ArcRV.</i>
 </div>
-
+<div align="center">
+<a href="{{ site.baseurl}}/Documentation/tool_viewers/" class="button hollow"><img 
+src="{{ site.baseurl }}/assets/images/RIM_02.png" width="75">  Instructions on exploring<br> <b>RIM</b> projects  in Riverscapes Viewer</a>
+</div>
 
 
 ## Table B-1 from [Bartelt (2021)]()
