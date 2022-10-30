@@ -21,7 +21,7 @@ src="{{ site.baseurl }}/assets/images/RIM_04.png" width="75"> View or Download P
 
 <a href="https://riverscapes.net"><img class="float-left" src="https://rave.riverscapes.net/assets/images/logos/RC_Black.png"></a>
 <a href="https://riverscapes.net/Tools/discrimination.html#research-grade"><img class="float-right" src="https://riverscapes.net/assets/images/tools/grade/TRL_3_128w.png"></a>
-**RIM** [0.0.2](https://github.com/Riverscapes/RIM/releases/tag/v0.0.2) as published here, is a BETA [research-grade tool](https://riverscapes.net/Tools/discrimination.html#research-grade). It is a mix of Python and R with ArcPY dependencies. It has been successfully deployed by others, but is finicky to deploy. 
+**RIM** [0.1.0](https://github.com/Riverscapes/RIM/releases/tag/v0.1.0) as published here, is a BETA [research-grade tool](https://riverscapes.net/Tools/discrimination.html#research-grade). It is a mix of Python and R with ArcPY dependencies. It has been successfully deployed by others, but is finicky to deploy. 
 
 Development of RIM has shifted from its own ArcToolbox into a Protocol implemented as part of data capture events in Riverscapes Studio for QGIS or [QRiS](https://qris.riverscapes.net/) thanks to support from the USFS and NOAA.
 
@@ -34,4 +34,4 @@ The types of beaver dam building activity impacting riverscapes that RIM was des
 
 ## References
 
-- Bartelt K. 2021. Valley Bottom Inundation Patterns in Beaver-Modified Streams: A Potential Proxy for Hydrologic Inefficiency, Masters Thesis, Utah State University: Logan, UT. Available from: https://digitalcommons.usu.edu/etd/8226
+- Bartelt K. 2021. Valley Bottom Inundation Patterns in Beaver-Modified Streams: A Potential Proxy for Hydrologic Inefficiency, Masters Thesis, Utah State University: Logan, UT. Available from: [https://digitalcommons.usu.edu/etd/8226](https://digitalcommons.usu.edu/etd/8226). DOI: [10.26076/a66b-0708](https://doi.org/10.26076/a66b-0708).

@@ -4,6 +4,7 @@ weight: 1
 ---
 ## Beaver Dam Building Opportunities
 In Figure 2 and Appendix A of Bartelt ([2021](https://digitalcommons.usu.edu/etd/8226)), 'Beaver Dam Building Opportunities' are differentiated into _classic_, _steep_ and _floodplain_. 
+
 <div align="center"><a href="https://webrave.riverscapes.net/#/USFS_PIBO/f8aa96b1-0d95-49c6-b82d-03a0b7842cac"><img  src="{{ site.baseurl }}/assets/images/Fig2.png"></a></div>
 
 ------

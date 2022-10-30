@@ -9,7 +9,7 @@ title: Example RIM Data from Bartelt (2021)
 <i>Example of a RIM project (Summit Creek, Idaho) visualized in web Riverscapes Viewer. The project can also be downloaded and used in desktop GIS with QRV and ArcRV.</i>
 </div>
 <div align="center">
-<a href="{{ site.baseurl}}/Documentation/tool_viewers/" class="button hollow"><img 
+<a href="{{ site.baseurl}}/Documentation/Viewing/" class="button hollow"><img 
 src="{{ site.baseurl }}/assets/images/RIM_02.png" width="75">  Instructions on exploring<br> <b>RIM</b> projects  in Riverscapes Viewer</a>
 </div>
 
