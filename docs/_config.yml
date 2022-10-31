@@ -54,26 +54,14 @@ settings:
   # IF you don't need this just comment out everything below
   # ----------------------------------
   topmenu:
-    - title: "Riverscapes"
-      childern:
-        - title: "Model Home"
-          url: index
-        - title: "Riverscapes Home"
-          url: http://riverscapes.net
-        - title: "About Riverscapes"
-          url: http://riverscapes.net/about.html
-        - title: "Who We Are"
-          url: http://riverscapes.net/who-we-are.html
-        - title: "News"
-          url: http://riverscapes.net/news.html
-    - title: "RC Tools"
+    - title: "RIM"
+      url: https://rim.riverscapes.net
+    - title: "Riverscapes Consortium"
+      url: https://riverscapes.net
+    - title: "Tools"
       url: https://riverscapes.net/Tools/
-    - title: "RC Science"
-      url: http://riverscapes.net/Science/
-    - title: "RC Data"
-      url: https://riverscapes.net/Data_Warehouses/
-    - title: "RC Help"
-      url: http://riverscapes.net/support.html
+    - title: "Data"
+      url: https://data.riverscapes.net
 
 # Redirecting from apps can be tricky so we use a key-value system
 # key: must be in the set [A-Za-z0-9_] (no spaces, no dashes)
