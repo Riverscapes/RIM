@@ -1,54 +1,103 @@
+# Clean template site
 
-## Where to find things
+## Getting started for writing content
 
-For overall [Riverscapes Documentation](http://riverscapes.northarrowresearch.com/), see the following techncial references:
-* [Guidelines for Documenting a Riverscapes Model](http://riverscapes.northarrowresearch.com/Technical_Reference/how_to_document_a_model.html)
-* [Cheatsheets on Jekyll Toolbox Documentation](http://riverscapes.northarrowresearch.com/Technical_Reference/jekyll_toolbox.html)- this is how you get the page titles (`title: Page Title`) to work, the proper behavior in the site table of contents, and a whole host of other issues.
-* [Theming a Jekyll Site](http://riverscapes.northarrowresearch.com/Technical_Reference/applying_theme.html) - This is how to apply the Riverscapes theme to your site.
+1. Open up the `Docs.code-workspace` file in VSCode. This should open up the workspace and put you in the right place to run the site.
+2. Make sure you are running node > v18 and have access to yarn at the command line
 
-### Misc problems
+```bash
+> node --version
+v18.16.0
 
-* if you see '%20' in your sidebar it's because you used spaces in your folder names. Switch to underscores
-
-### Site templates and HTML
-
-* The default template that controls the large-scale page layout is:  `_layouts/default.html`. There can be more than one but we like to keep it simple
-* The footer, sidenav and navigation stuff is in `_includes/`. We build a lot of stuff using javascript so `_includes/navigation.html` is going to not be very useful.
-
-### Editing CSS:
-
-* `docs/assets/css/custom.css` for custom hackery and small CSS changes
-
-
-## Updating your favicon
-
-Favicons used to be simple. Now, with the range of resolutions they have to support things have gotten more complicated. Here's how you generate your own
-
-1. Find a nice sized copy of your logo that is square.
-2. Go to a service like http://www.favicon-generator.org/ and upload it. It will give you the following files in a zip: `android-icon-144x144.png`, `apple-icon-114x114.png`, `apple-icon-60x60.png`, `favicon-16x16.png`, `ms-icon-150x150.png`, `android-icon-192x192.png`, `apple-icon-120x120.png`, `apple-icon-72x72.png`, `favicon-32x32.png`, `ms-icon-310x310.png`, `android-icon-36x36.png`, `apple-icon-144x144.png`, `apple-icon-76x76.png`, `favicon-96x96.png`, `ms-icon-70x70.png`, `android-icon-48x48.png`, `apple-icon-152x152.png`, `apple-icon-precomposed.png`, `favicon.ico`, `android-icon-72x72.png`, `apple-icon-180x180.png`, `apple-icon.png`, `manifest.json`, `android-icon-96x96.png`, `apple-icon-57x57.png`, `browserconfig.xml`, `ms-icon-144x144.png`
-3. put these files in the folder `assets/images/favicons`
-
-Now you're ready to link them up. Open `src/_layouts/default.html` and add the following lines:
-
-```html
-      <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/images/favicons/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="{{ site.baseurl }}/assets/images/favicons/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/images/favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/assets/images/favicons/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/images/favicons/favicon-16x16.png">
-      <link rel="manifest" href="{{ site.baseurl }}/assets/images/favicons/manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="{{ site.baseurl }}/assets/images/favicons/ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-
+> yarn --version
+3.6.1
 ```
 
-be really careful about the paths here. Too many broken links and it starts to affect your google ranking. 
+3. If yarn insn't found you may need to install it: `npm install --global yarn`
+
+***The version of yarn isn't that important for content writers. We just run this command to make sure it's installed.***
+
+4. Open up a terminal window in VSCode and run `yarn install` to install all the dependencies.
+5. Run `yarn start` to start the dev server and develop locally.
+6. If you think something is broken or weird you can run `yarn clean` to clear the cache and then `yarn start` again to see if that fixes it. We also have `yarn start:clean` that combines these two steps.
+
+
+## Creating a new `./docs` site
+
+1. Copy everything (excluding `node_modules`, `.cache` and `public`) in this `./template` folder to a `./docs` subfolder in your desired repo. **NOTE: Make SURE to get all the dot-prefixed hidden files and folders includeing `.vscode`.**
+2. Open the `Docs.code-workspace` in the new location. 
+   - *You may need to open the workspace file and adjust the paths inside it if you move it to a different location.*
+   - For those of us with nvm installed (typically non-windows users) This should put your terminal in the right place so that the `.nvmrc` file registers and the correct version of node is installed. 
+3. open `gatsby-config.ts` and change all the **TODO** items:
+  - `pathPrefix`: If this site is going to live at a subpath like `https://example.com/useless-site`, then change this to `/useless-site` **NOTE: Case matters**
+  - `start_url`: Should match the `pathPrefix` if you have one
+4. Open a terminal and make sure you are in the `./docs` folder with the correct version of Nodejs
+5. Run `yarn install` inside the `./docs` folder to install all the dependencies
+6. RUn `yarn start` inside the `./docs` folder to start the dev server and develop locally.
+7. Now move the 2 yml files in the root of your `.git` repo. They are living in the `.github/workflows` folder next to this README.md file but they will need to be moved to the root of whatever repo they end up in.
+   1. `/.github/workflows/pages-publish.yml`
+   2. `/.github/workflows/pages-validate.yml`
+8. Move the entire `.devcontainer` folder to the root of your repo. This is the folder that contains the `Dockerfile` and `devcontainer.json` files.
+9. Once you push these files push the whole mess to Github and then go to the repo settings and enable Github Pages:
+   1. Repo Settings
+   2. Pages
+   3. Build and deployment --> Source --> Select `Github Actions`
+   4. Wait for it to build and deploy.
+
+## Upgrading a site to the latest version of Gatsby
+
+1. Open a terminal and make sure you are in the `./docs` folder with the correct version of Nodejs.
+2. Run `yarn upgrade:theme` (it's a custom script) to upgrade to the latest version of Gatsby.
+3. If you like, check your `yarn.lock` file in the git diff to make sure the theme is at the correct level.
+
+## Migration of Jekyll `./docs` site to Gatsby
+
+1. Delete the old Jekyll files:
+   - `Gemfile`
+   - `.gitignore` (The steps above include a new, better Gatsby .gitignore)
+   - `_config.yml`
+2. Move all remaining files into a temporary `ROOT/docs/OLD_JEKYLL` folder so that gatsby will ignore it for now. We do this because Jekyll allows you to use files in any location and it can be confusing to have them in the same folder as the new Gatsby files. We want to move them out of the way for now and then bring them back one-by-one as we fix them.
+2. One-by-one move each existing markdown files from the `ROOT/Docs/OLD_JEKYLL` folder into the `content/page` folder. It is recommended to make small git commits as you go so it's easier to see what changed and what broke the build. ***NEVER COMMIT ANYTHING BROKEN***
+   1. Change file extension from `*.md` to `*.mdx` 
+   2. Fix the frontmatter (see below).
+   3. Fix the markdown content by visiting the local page in the browser and looking for errors on the screen and in the console (common problems are listed below).
+   4. Move any images the page depends on from the `assets/images` folder to the `static/images` folder.
+
+
+## Typical problems and content migration gotchas:
+
+- Look for liquid tags that are left over from jekyll: `{{ some.liquid.tag }}` these need to be removed.
+- Any changes to `gatsby-config.ts` will require a restart of the dev server.
+- Unclosed img tags: `<img src="some-image.jpg">` is not allowed. You need to close the tag like this `<img src="some-image.jpg" />`
+- HTML Comments: `<!-- This is a comment -->` are not allowed and will break the site. You need to use MDX comments like this `{/* This is a comment */}`
+- Frontmatter Fields:
+    - All frontmatter is optional. You can have no frontmatter at all and the page will still work.
+    - `title` is optional. It is used in conjunction with `banner`
+    - `description` is optional. It is used in conjunction with `banner`
+    - If you have `isHome` set to true (you can ommit this completely if it's false) Then you need to wrap all your content in a container tag.
+    - If you want the banner at the top of the page set `banner:true`
+    - `banner` and `isHome` do not work well together
+    - `image`: This is the image that will be used for this page as a thumbnail in the lower image cards below the content.
+    - `imageAlt`: Related to the `image` field. This is the alt text for the image.
+
+```mdx
+import { Container } from '@mui/material'
+
+<Container maxWidth="xl">
+
+## This is a title
+
+here is some content
+
+</Container>
+```
+
+
+- Menu links: 
+    - **Broken menu links** (i.e. links that lead to a non-existent page) will not crash the site. They will just lead to a 404. On the 404 page you should be able to search for the correct url using the search form.
+- Images: 
+    - If you import images like `import WhatIsRiverscape from './what-is-riverscape.jpg'` then the image not being there WILL break the site. It will look like a red error in the console
+
+```
+  ModuleNotFoundError: Module not found: Error: Can't resolve './what-is-riverscape.jpg' in '/some/path/content/page'
+```
