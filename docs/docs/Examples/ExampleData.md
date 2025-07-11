@@ -1,0 +1,87 @@
+---
+title: Example RIM Data from Bartelt (2021)
+---
+
+
+[![RIM_03](/img/RIM_03.png)](https://digitalcommons.usu.edu/etd/8226/)  
+All of the 37 sites reported in Bartelt ([2021](https://digitalcommons.usu.edu/etd/8226)) are packaged into [**riverscapes projects** ![Riverscapes Project Icon](https://riverscapes.net/img/data/RiverscapesProject_24.png)](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/), which can be viewed in the Web Riverscapes Viewer, or [Riverscapes Viewers](https://rave.riverscapes.net) in your GIS. You will need a [free Riverscapes Consortium account to view](https://riverscapes.net/Data_Warehouses/signup.html).
+
+
+<div align="center">
+  [![Summit Creek Web Riverscapes Viewer](/img/SummitCreek_WebRV.png)](https://webrave.riverscapes.net/#/USFS_PIBO/f8aa96b1-0d95-49c6-b82d-03a0b7842cac)
+  <br />
+  <i>Example of a RIM project (Summit Creek, Idaho) visualized in web Riverscapes Viewer. The project can also be downloaded and used in desktop GIS with QRV and ArcRV.</i>
+</div>
+
+import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
+
+<ToolsWrapper
+  cards={[{
+    title: "Instructions on exploring RIM projects in Riverscapes Viewer",
+    toolUrl: "/docs/Documentation/Viewing/",
+    imageUrl: "/img/RIM_02.png",
+    description: "Instructions on exploring RIM projects in Riverscapes Viewer"
+  }]}
+  cardsize="sm"
+/>
+
+
+## Table B-1 from [Bartelt (2021)](https://digitalcommons.usu.edu/etd/8226)
+
+| Site ID         | Site Name                            | HUC 8 ID | HUC 8 Name        | Riverscapes Project URL (direct link to web [Riverscapes Viewer](https://rave.riverscapes.net)) |
+| --------------- | ------------------------------------ | -------- | ----------------- | ------------------------------------------------------------ |
+|                 |                                      |          |                   |                                                              |
+| beaver_creek_wy | Beaver Creek, Wyoming                | 10080002 | Little Wind       | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/a1a275ef-772c-4e4c-853a-08507af680a2) |
+| twin_creek_wy   | Twin Creek, Wyoming                  | 10080003 | Popo Agie         | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/c9c13429-dad0-42c2-a366-aa2cfb639a66) |
+| mill_creek      | Mill Creek, Utah                     | 16010101 | Upper Bear        | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/3f928f92-7e1a-4ea0-8838-6b4c3626f556) |
+| beaver_creek_a  | Beaver Creek A, Utah                 | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/e94a64ef-d954-481b-a79a-347c22ae61a4) |
+| beaver_creek_b  | Beaver Creek B, Utah                 | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/46723337-43c6-4d04-8219-37bca2e3d351) |
+| pole_hollow     | Pole Hollow, Utah                    | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/ba952b4f-2d1d-40c3-81ed-fd3244b0893a) |
+| RH_fork_a       | Right Hand Fork A, Utah              | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/8f2d9523-67d2-4be6-83c8-ff2a58c4e539) |
+| RH_fork_a       | Right Hand Fork A (2), Utah          | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/c9e3adb8-a960-47f7-81ff-551200e36033) |
+| RH_fork_mid     | Right Hand Fork mid, Utah            | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/4d35893c-f090-4af0-8f97-3a2eb694505c) |
+| rock_creek_low  | Rock Creek, Utah                     | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/049a9a8c-4ea5-4553-bd50-38ffea856ca3) |
+| spawn_c         | Spawn Creek C, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/abba3952-e048-4ef8-84f5-3073e7ada984) |
+| temple_a        | Temple Fork A, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/d9ecb981-af20-40e3-aa24-070871fb8a2e) |
+| beaver_creek_wy | Beaver Creek, Wyoming                | 10080002 | Little Wind       | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/a1a275ef-772c-4e4c-853a-08507af680a2) |
+| twin_creek_wy   | Twin Creek, Wyoming                  | 10080003 | Popo Agie         | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/c9c13429-dad0-42c2-a366-aa2cfb639a66) |
+| mill_creek      | Mill Creek, Utah                     | 16010101 | Upper Bear        | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/3f928f92-7e1a-4ea0-8838-6b4c3626f556) |
+| beaver_creek_a  | Beaver Creek A, Utah                 | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/e94a64ef-d954-481b-a79a-347c22ae61a4) |
+| beaver_creek_b  | Beaver Creek B, Utah                 | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/46723337-43c6-4d04-8219-37bca2e3d351) |
+| pole_hollow     | Pole Hollow, Utah                    | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/ba952b4f-2d1d-40c3-81ed-fd3244b0893a) |
+| RH_fork_a       | Right Hand Fork A, Utah              | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/8f2d9523-67d2-4be6-83c8-ff2a58c4e539) |
+| RH_fork_a       | Right Hand Fork A (2), Utah          | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/c9e3adb8-a960-47f7-81ff-551200e36033) |
+| RH_fork_mid     | Right Hand Fork mid, Utah            | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/4d35893c-f090-4af0-8f97-3a2eb694505c) |
+| rock_creek_low  | Rock Creek, Utah                     | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/049a9a8c-4ea5-4553-bd50-38ffea856ca3) |
+| spawn_c         | Spawn Creek C, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/abba3952-e048-4ef8-84f5-3073e7ada984) |
+| temple_a        | Temple Fork A, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/d9ecb981-af20-40e3-aa24-070871fb8a2e) |
+| temple_b        | Temple Fork B, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/d7a24e71-c880-4c49-a63a-f219048f0ebb) |
+| kane_creek      | Kane Creek, Utah                     | 17040218 | Big Lost          | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/e9eed5af-5ad3-4030-8a13-74e8e59d1d62) |
+| summit_creek    | Summit Creek, Idaho                  | 17040218 | Big Lost          | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/f8aa96b1-0d95-49c6-b82d-03a0b7842cac) |
+| salmon_river    | Salmon River, Idaho                  | 17060201 | Upper Salmon      | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/013dffc5-5aee-4658-b9d0-384aa54955f6) |
+| murderers_a     | Murderers Creek, Oregon              | 17070201 | Upper John Day    | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/3ecb1998-fa0e-43ea-a5c6-4a7038b2ce44) |
+| lower_owens     | Lower Owens, Bridge Creek,   Oregon  | 17070204 | Lower John Day    | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/9662f35b-c4e8-4268-a610-cdb9801decaf) |
+| franklin_basin  | Logan River, Franklin Basin,   Utah  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/95369ce9-9a52-4f39-ae20-9efe2219d8cb) |
+| ditch_creek     | Ditch Creek, Wyoming                 | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/47e7e24f-fc98-4b44-877a-51c5312bf8e0) |
+| NF_spread_a     | North Fork Spread Creek, Wyoming     | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/ee9a59e6-3177-499c-b713-6c1419b44be3) |
+| pacific_creek_b | Pacific Creek B, Wyoming             | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/9113b211-ff6a-482f-b36e-295370f83c5c) |
+| pilgrim_creek_a | Pilgrim Creek A, Wyoming             | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/db568a54-4e25-4047-9115-c9fe249bd8c9) |
+| SF_spread_a     | South Fork Spread Creek A,   Wyoming | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/0e84324b-0fed-4ca5-96ca-28ddd4aa2a75) |
+| SF_spread_b     | South Fork Spread Creek B,   Wyoming | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/71c3b5a9-95d3-4ab1-920b-407cde55f809) |
+| SF_spread_c     | South Fork Spread Creek C,   Wyoming | 17040101 | Snake Headwaters  | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/08122ced-f993-4f66-a27e-1b149b715786) |
+| big_wood_b      | Big Wood, Idaho                      | 17040219 | Big Wood          | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/8b5adcc5-2148-4344-9563-624ed956b953) |
+| trail_creek     | Trail Creek, Idaho                   | 17040219 | Big Wood          | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/aa976145-3eea-49f1-8a0f-135daa97ce93) |
+| birch_saw       | Tributary to Birch Creek, Idaho      | 16010202 | Middle Bear       | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/6cb48547-bdcf-427d-8819-df6c5b32b122) |
+| boss_canyon     | Boss Canyon, Utah                    | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/ede5819d-3454-4680-9db3-eb30182cd1bd) |
+| hodges_creek    | Hodges Creek, Utah                   | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/4c84bb9e-d142-4d2c-a6c2-1c7e14020521) |
+| little_bear_low | Lower Little Bear Creek, Utah        | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/1800d941-0544-49eb-9324-333cd623f6ee) |
+| little_bear_up  | Upper Little Bear Creek, Utah        | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/b6ec7dae-65f9-4561-8788-cb76343a5c4d) |
+| spawn_a         | Spawn Creek A, Utah                  | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/aa316508-0bee-4a8d-a4c9-9f2c97a8f2bc) |
+| spawn_trib      | Tributary to Spawn Creek, Utah       | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/e35b6481-3183-46d0-bb0f-106c1117c4f0) |
+| temple_trib_a   | Tributary A to Temple Fork, Utah     | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/7682cdf8-f3c0-4994-bdf5-f99ab4b0eb8c) |
+| temple_trib_b   | Tributary B to Temple Fork, Utah     | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/a480c75a-3316-473c-9d52-426cae61b0e3) |
+| temple_woody    | Upper Temple Fork, Utah              | 16010203 | Little Bear-Logan | [View or Download Project in Riverscapes Viewer](https://data.riverscapes.xyz/#/USFS_PIBO/66891af4-f899-4181-a76b-b8394ea0087e) |
+
+## References
+
+- Bartelt K. 2021. Valley Bottom Inundation Patterns in Beaver-Modified Streams: A Potential Proxy for Hydrologic Inefficiency, Masters Thesis, Utah State University: Logan, UT. Available from: https://digitalcommons.usu.edu/etd/8226

@@ -1,7 +1,54 @@
 ---
-title: RIM
+title: RIM - Riverscapes Inundation Mapper
 sidebar_label: Home
-sidebar_position: 1
+sidebar_position: 100
 ---
 
-I AM ALIVE!
+
+# Riverscape Inundation Mapper (RIM) tool
+
+[![RIM_01](/img/RIM_01.png)](https://digitalcommons.usu.edu/etd/8226/)
+
+The **Riverscapes Inundation Mapper** Tool, or **RIM**, was developed as part of Karen Bartelt's Thesis ([Bartelt et al. 2021](https://digitalcommons.usu.edu/etd/8226/)) to aid in the efficient mapping of structurally forced inundation patterns in beaver impacted riverscapes.
+
+
+
+![Graphical Abstract](/img/GraphicalAbstract.png)
+
+
+*The contrast in inundation patterns and types in undammed (top) and dammed (bottom) situations, across dramatically different riverscape settings (left to right) produces a strikingly similar impact. That is, at the same baseflows, inundation is increased from 2 to 7 fold with a greater diversity of flow types (i.e. more ponded and overflow areas instead of just free flowing).*
+
+
+
+
+import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
+
+<ToolsWrapper
+  cards={[{
+    title: "View or Download Projects",
+    toolUrl: "/docs/Examples/ExampleData",
+    logoUrl: "/img/RIM_04.png",
+    description: "View or Download Projects from Bartelt 2021 using Riverscapes Viewer"
+  }]}
+  cardsize="sm"
+/>
+
+
+
+## A Riverscapes Consortium Tool
+
+
+{/* [![Riverscapes Consortium](https://rave.riverscapes.net/img/logos/RC_Black.png)](https://riverscapes.net)
+[![Research Grade](https://riverscapes.net/img/tools/grade/TRL_3_128w.png)](https://riverscapes.net/Tools/discrimination.html#research-grade) */}
+
+**RIM** [0.1.0](https://github.com/Riverscapes/RIM/releases/tag/v0.1.0) as published here, is a BETA [research-grade tool](https://riverscapes.net/Tools/discrimination.html#research-grade). It is a mix of Python and R with ArcPY dependencies. It has been successfully deployed by others, but is finicky to deploy.
+
+Development of RIM has shifted from its own ArcToolbox into a Protocol implemented as part of data capture events in Riverscapes Studio for QGIS or [QRiS](https://qris.riverscapes.net/) thanks to support from the USFS and NOAA.
+
+The types of beaver dam building activity impacting riverscapes that RIM was designed to capture and distill: 
+
+<YouTubeEmbed videoId="sLutYEEARck" title="Beaver Dam Building Activity" />
+
+## References
+
+- Bartelt K. 2021. Valley Bottom Inundation Patterns in Beaver-Modified Streams: A Potential Proxy for Hydrologic Inefficiency, Masters Thesis, Utah State University: Logan, UT. Available from: [https://digitalcommons.usu.edu/etd/8226](https://digitalcommons.usu.edu/etd/8226). DOI: [10.26076/a66b-0708](https://doi.org/10.26076/a66b-0708).

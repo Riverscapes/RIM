@@ -1,0 +1,85 @@
+---
+title: Examples of Inundation
+sidebar_position: 2
+---
+
+## Beaver Dam Building Opportunities
+In Figure 2 and Appendix A of Bartelt ([2021](https://digitalcommons.usu.edu/etd/8226)), 'Beaver Dam Building Opportunities' are differentiated into _classic_, _steep_ and _floodplain_.
+
+[![Figure 2](/img/Fig2.png)](https://webrave.riverscapes.net/#/USFS_PIBO/f8aa96b1-0d95-49c6-b82d-03a0b7842cac)
+
+---
+
+## Schematics of Inundation Contrasted
+
+[![RIM_03](/img/RIM_03.png)](https://digitalcommons.usu.edu/etd/8226/)
+
+In each of the 36 sites below, schematics of inundation within the valley bottom (white) are shown as pairs with the same site without beaver dam activity on top, and with beaver dam activity on the bottom. This is the primary mapping result of RIM (i.e. digitizing inundation extent). In each figure, the first column are sites within **classic** settings (i.e. < 6% slope and damming main channel), **steep** settings (>6% slope) and **floodplain** settings (dams primarily on floodplain and side channels).
+
+import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
+
+<ToolsWrapper
+  cards={[
+    {
+      title: "Figure 7",
+      imageUrl: "/img/Fig7.png",
+      description: "Figure 7 of Bartelt et al. (2021)",
+      imageLink: "/img/Fig7.png"
+    },
+    {
+      title: "Figure 8",
+      imageUrl: "/img/Fig8.png",
+      description: "Figure 8 of Bartelt et al. (2021)",
+      imageLink: "/img/Fig8.png"
+    },
+    {
+      title: "Figure B1",
+      imageUrl: "/img/B1.png",
+      description: "Figure B1 of Bartelt et al. (2021)",
+      imageLink: "/img/B1.png"
+    },
+    {
+      title: "Figure B2",
+      imageUrl: "/img/B2.png",
+      description: "Figure B2 of Bartelt et al. (2021)",
+      imageLink: "/img/B2.png"
+    },
+    {
+      title: "Figure B3",
+      imageUrl: "/img/B3.png",
+      description: "Figure B3 of Bartelt et al. (2021)",
+      imageLink: "/img/B3.png"
+    },
+    {
+      title: "Figure B4",
+      imageUrl: "/img/B4.png",
+      description: "Figure B4 of Bartelt et al. (2021)",
+      imageLink: "/img/B4.png"
+    },
+    {
+      title: "Figure B5",
+      imageUrl: "/img/B5.png",
+      description: "Figure B5 of Bartelt et al. (2021)",
+      imageLink: "/img/B5.png"
+    }
+  ]}
+  cardsize="md"
+/>
+
+You can explore the above results (just schematics of inundation shown as an abstraction) in more detail at:
+
+
+<ToolsWrapper
+  cards={[{
+    title: "View or Download Projects",
+    toolUrl: "/docs/Examples/ExampleData",
+    logoUrl: "/img/RIM_04.png",
+    description: "View or Download Projects from Bartelt 2021 using Riverscapes Viewer"
+  }]}
+  cardsize="sm"
+/>
+
+
+## References
+
+- Bartelt K. 2021. Valley Bottom Inundation Patterns in Beaver-Modified Streams: A Potential Proxy for Hydrologic Inefficiency, Masters Thesis, Utah State University: Logan, UT. Available from: [https://digitalcommons.usu.edu/etd/8226](https://digitalcommons.usu.edu/etd/8226)
