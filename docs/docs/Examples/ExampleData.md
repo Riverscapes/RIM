@@ -4,7 +4,7 @@ title: Example RIM Data from Bartelt (2021)
 
 
 [![RIM_03](/img/RIM_03.png)](https://digitalcommons.usu.edu/etd/8226/)  
-All of the 37 sites reported in Bartelt ([2021](https://digitalcommons.usu.edu/etd/8226)) are packaged into [**riverscapes projects** ![Riverscapes Project Icon](https://riverscapes.net/img/data/RiverscapesProject_24.png)](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/), which can be viewed in the Web Riverscapes Viewer, or [Riverscapes Viewers](https://rave.riverscapes.net) in your GIS. You will need a [free Riverscapes Consortium account to view](https://riverscapes.net/Data_Warehouses/signup.html).
+All of the 37 sites reported in Bartelt ([2021](https://digitalcommons.usu.edu/etd/8226)) are packaged into [**riverscapes projects** ](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/), which can be viewed in the Web Riverscapes Viewer, or [Riverscapes Viewers](https://rave.riverscapes.net) in your GIS. You will need a [free Riverscapes Consortium account to view](https://riverscapes.net/Data_Warehouses/signup.html).
 
 
 <div align="center">
@@ -19,7 +19,7 @@ import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
   cards={[{
     title: "Instructions on exploring RIM projects in Riverscapes Viewer",
     toolUrl: "/docs/Documentation/Viewing/",
-    imageUrl: "/img/RIM_02.png",
+    logoUrl: "/img/RIM_02.png",
     description: "Instructions on exploring RIM projects in Riverscapes Viewer"
   }]}
   cardsize="sm"
