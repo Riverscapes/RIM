@@ -1,0 +1,52 @@
+---
+title: License & Source Code
+sidebar_position: 2
+---
+
+
+The Riverscapes Inundation Mapping (RIM) Tool is:
+- [Open-Source](https://github.com/Riverscapes/RIM)
+- Striving to follow [FAIR](https://force11.org/info/the-fair-data-principles/) Principles
+- [Pending Riverscapes Compliance](https://riverscapes.net/Tools/#riverscapes-compliant-tools) 
+
+
+import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
+
+<ToolsWrapper
+  cards={[{
+    title: "RIM Report Card",
+    description: "See RIM's Report Card from the Riverscapes Consortium.",
+    toolUrl: "/docs/About/Status/Tool_ReportCard_0-1-00"
+  }]}
+/>
+
+## Source Code
+The RIM Plugin source code is available on [GitHub](https://github.com/Riverscapes/RIM):
+
+
+
+<ToolsWrapper
+  cards={[{
+    title: "View RIM Source Code on GitHub",
+    description: "The RIM Plugin source code is available on GitHub.",
+    toolUrl: "https://github.com/Riverscapes/RIM"
+  }]}
+/>
+
+
+The source code and this website are tracked with Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7265508.svg)](https://doi.org/10.5281/zenodo.7265508)
+
+Cite as:
+> Karen Bartelt, Joe Wheaton, Matt Reimer, Margaret Hallerud, Philip Bailey, & Jordan Gilbert. (2022). Riverscapes Inundation Mapper - RIM 0.1 (v0.1.0). Zenodo. [https://doi.org/10.5281/zenodo.7265508](https://doi.org/10.5281/zenodo.7265508)
+
+
+
+## License
+
+[
+  ![GNU Logo](https://www.gnu.org/graphics/heckert_gnu.transp.small.png)
+](https://www.gnu.org/licenses/gpl-3.0.en.html)
+RIM is licensed under the [GNU Public License Version 3](https://github.com/Riverscapes/RIM/blob/docs/LICENSE).
+
