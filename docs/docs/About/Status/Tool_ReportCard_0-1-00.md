@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 
-![Research Grade](https://riverscapes.net/assets/images/tools/grade/TRL_3_128w.png)
+<!-- ![Research Grade](https://riverscapes.net/assets/images/tools/grade/TRL_3_128w.png) -->
 
 ![Tool Logo](/img/RIM_03.png)
 

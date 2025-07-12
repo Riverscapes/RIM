@@ -1,0 +1,45 @@
+---
+title: Viewing RIM Projects
+sidebar_position: 400
+---
+
+# Viewing RIM Projects
+
+
+## Exploring RIM Project in Web RV
+
+import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
+
+<ToolsWrapper
+  cards={[{
+    title: "View or Download Projects from Bartelt 2021 using Riverscapes Viewer",
+    toolUrl: "/docs/Examples/ExampleData",
+    logoUrl: "/img/RIM_04.png",
+    description: "Explore or download RIM projects."
+  }]}
+  cardsize="sm"
+/>
+
+Before downloading anything, you can explore RIM projects in the web. Choose a project from the [Example Data page](/docs/Examples/ExampleData).
+
+
+The first video below shows you how to view a RIM **riverscapes project** and download it. For more information about Riverscapes Projects, see the [Riverscapes Project documentation](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/).
+
+<YouTubeEmbed videoId="dv1v41kaUlY" title="Viewing a RIM Riverscapes Project" />
+
+
+
+
+
+## Exploring RIM Projects in Desktop GIS with RV (Riverscapes Viewer)
+
+The next video shows how to explore a RIM project in the QGIS Riverscape Viewer ([QRV](https://rave.riverscapes.net/Download/install_qrave.html)).
+
+<YouTubeEmbed videoId="KjkzxZXgx0I" title="Exploring a RIM Project in QRV" />
+
+
+
+### Install RV for your Desktop GIS
+
+If you want to view a RIM project in desktop GIS, they are designed to work well with Riverscapes Viewer (RV). Follow the instructions on the [RAVE install page](http://rave.riverscapes.net) to install the RAVE toolbar for QGIS or ArcGIS. It takes less than a minute.
+
