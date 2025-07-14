@@ -1,55 +1,54 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
-import type * as Preset from "@docusaurus/preset-classic";
+import { themes as prismThemes } from 'prism-react-renderer'
+import type { Config } from '@docusaurus/types'
+import type * as Preset from '@docusaurus/preset-classic'
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "RIM", // Site title displayed in the browser tab
-  tagline: "RIM", // Short description shown in meta tags
-  favicon: "favicon.ico", // Path to site favicon
+  title: 'RIM', // Site title displayed in the browser tab
+  tagline: 'RIM', // Short description shown in meta tags
+  favicon: 'favicon.ico', // Path to site favicon
 
   future: {
     v4: true, // Enables compatibility with upcoming Docusaurus v4 features
   },
 
-  url: "https://rim.riverscapes.net", // The base URL of your site (no trailing slash)
-  baseUrl: "/", // The sub-path where your site is served (used in GitHub Pages)
+  url: 'https://riverscapes.github.io', // The base URL of your site (no trailing slash)
+  baseUrl: '/RIM', // The sub-path where your site is served (used in GitHub Pages)
 
-  onBrokenLinks: "throw", // Throw an error on broken links
-  onBrokenMarkdownLinks: "warn", // Warn instead of throwing for broken markdown links
+  onBrokenLinks: 'throw', // Throw an error on broken links
+  onBrokenMarkdownLinks: 'warn', // Warn instead of throwing for broken markdown links
 
   i18n: {
-    defaultLocale: "en", // Default language
-    locales: ["en"], // Supported languages
+    defaultLocale: 'en', // Default language
+    locales: ['en'], // Supported languages
   },
 
-  themes: ["@riverscapes/docusaurus-theme"], // Shared custom theme used across sites
+  themes: ['@riverscapes/docusaurus-theme'], // Shared custom theme used across sites
 
   presets: [
     [
-      "classic", // Docusaurus classic preset for docs/blog
+      'classic', // Docusaurus classic preset for docs/blog
       {
         docs: {
-          sidebarPath: "./sidebars.ts", // Path to sidebar config
-          routeBasePath: "/", // Serve docs at site root
-          editUrl:
-            "https://github.com/Riverscapes/RIM/tree/main/sites/template", // "Edit this page" link
+          sidebarPath: './sidebars.ts', // Path to sidebar config
+          routeBasePath: '/', // Serve docs at site root
+          editUrl: 'https://github.com/Riverscapes/RIM/tree/main/sites/template', // "Edit this page" link
         },
       } satisfies Preset.Options,
     ],
   ],
 
-  stylesheets: ["src/css/custom.css"],
+  stylesheets: ['src/css/custom.css'],
 
   themeConfig: {
-    image: "img/logo.png", // Social sharing image
+    image: 'img/logo.png', // Social sharing image
 
     navbar: {
-      title: "RIM", // Navbar title
+      title: 'RIM', // Navbar title
       logo: {
-        alt: "Riverscapes Studio Logo", // Logo alt text
-        src: "img/logo.png", // Logo image path
+        alt: 'Riverscapes Studio Logo', // Logo alt text
+        src: 'img/logo.png', // Logo image path
       },
       items: [
         // {
@@ -59,9 +58,9 @@ const config: Config = {
         //   label: 'MENU1', // Label in the navbar
         // },
         {
-          href: "https://github.com/Riverscapes/RIM", // External GitHub link
-          label: "GitHub",
-          position: "right",
+          href: 'https://github.com/Riverscapes/RIM', // External GitHub link
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
@@ -71,6 +70,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula, // Code block theme for dark mode
     },
   } satisfies Preset.ThemeConfig,
-};
+}
 
-export default config;
+export default config
