@@ -1,9 +1,7 @@
 ---
-title: Step 3b: Create New DCE
+title: "Step 3b: Create New DCE"
 sidebar_position: 5
 ---
-
-# Step 3b: Create New DCE
 
 ## Create new DCE
 

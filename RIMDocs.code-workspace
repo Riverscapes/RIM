@@ -4,10 +4,6 @@
         "name": "📜 RIM Docusaurus Site",
         "path": "./docs"
       },
-            {
-        "name": "📜 RIM OLD SITE",
-        "path": "./DOCS_OLD"
-      },
       {
         "name": "🏠 Root", 
         "path": "./"     

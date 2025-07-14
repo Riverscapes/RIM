@@ -1,9 +1,7 @@
 ---
-title: Step 3a Mapping
+title: "Step 3a: Mapping"
 sidebar_position: 4
 ---
-
-# Step 3a: Mapping
 
 ## Context Features
 

@@ -1,9 +1,7 @@
 ---
-title: Step 2 Project Builder
+title: "Step 2: Project Builder"
 sidebar_position: 2
 ---
-
-# Step 2: Project Builder
 
 ## Project Builder
 

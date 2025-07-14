@@ -1,9 +1,7 @@
 ---
-title: Step 4: Calculate Metrics
+title: "Step 4: Calculate Metrics"
 sidebar_position: 6
 ---
-
-# Step 4: Calculate Metrics
 
 ## Calculate metrics
 

@@ -1,9 +1,7 @@
 ---
-title: Step 3: Map Features
+title: "Step 3: Map Features"
 sidebar_position: 3
 ---
-
-# Step 3: Map Features
 
 ## Map Features
 

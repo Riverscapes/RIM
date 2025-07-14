@@ -1,9 +1,7 @@
 ---
-title: Step 1: Gather Inputs
+title: "Step 1: Gather Inputs"
 sidebar_position: 1
 ---
-
-# Step 1: Gather Inputs
 
 The first step to mapping your riverscape and running the tool is to gather the required input files.
 
