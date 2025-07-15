@@ -13,8 +13,8 @@ const config: Config = {
     v4: true, // Enables compatibility with upcoming Docusaurus v4 features
   },
 
-  url: 'https://riverscapes.github.io', // The base URL of your site (no trailing slash)
-  baseUrl: '/RIM', // The sub-path where your site is served (used in GitHub Pages)
+  url: 'https://rim.riverscapes.net', // The base URL of your site (no trailing slash)
+  baseUrl: '/', // The sub-path where your site is served (used in GitHub Pages)
 
   onBrokenLinks: 'throw', // Throw an error on broken links
   onBrokenMarkdownLinks: 'warn', // Warn instead of throwing for broken markdown links
@@ -33,7 +33,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts', // Path to sidebar config
           routeBasePath: '/', // Serve docs at site root
-          editUrl: 'https://github.com/Riverscapes/RIM/tree/main/sites/template', // "Edit this page" link
+          editUrl: 'https://github.com/Riverscapes/RIM/tree/master/sites/template', // "Edit this page" link
         },
       } satisfies Preset.Options,
     ],
