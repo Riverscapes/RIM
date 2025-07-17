@@ -19,7 +19,7 @@ Special thanks to Carl Saunders (USFS) and Alden Shalcross (BLM) for their conti
 ## RIM Development Team
 
 
-RIM was primarily developed by [Karen Barelt](http://etal.joewheaton.org/karen-bartelt.html) as part of her Masters Thesis in the [ETAL Lab](https://etal.joewheaton.org), with guidance from [Joe Wheaton](https://joewheaton.org) and [Philip Bailey](https://www.northarrowresearch.com/people). Karen now works for the USGS. For a complete list of developers and their contributions, see the [RIM Github repository](https://github.com/Riverscapes/RIM/graphs/contributors). Chalese Hafen was critical in helping with curation of the RIM project types and Jordan Gilbert helped get the releases packaged up. Thanks to Matt Reimer and Jordan Gilbert for getting the [RIM projects into the warehouse](/docs/Examples/ExampleData).
+RIM was primarily developed by [Karen Barelt](http://etal.joewheaton.org/karen-bartelt.html) as part of her Masters Thesis in the [ETAL Lab](https://etal.joewheaton.org), with guidance from [Joe Wheaton](https://joewheaton.org) and [Philip Bailey](https://www.northarrowresearch.com/people). Karen now works for the USGS. For a complete list of developers and their contributions, see the [RIM Github repository](https://github.com/Riverscapes/RIM/graphs/contributors). Chalese Hafen was critical in helping with curation of the RIM project types and Jordan Gilbert helped get the releases packaged up. Thanks to Matt Reimer and Jordan Gilbert for getting the [RIM projects into the warehouse](/Examples/ExampleData).
 
 
 <!-- [![North Arrow Research Logo](/img/NA_Logo_150pxTall.png)](https://northarrowresearch.com/) -->
