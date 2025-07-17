@@ -37,7 +37,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts', // Path to sidebar config
           routeBasePath: '/', // Serve docs at site root
-          editUrl: 'https://github.com/Riverscapes/RIM/tree/master/sites/template', // "Edit this page" link
+          editUrl: 'https://github.com/Riverscapes/RIM/tree/master/docs',
         },
       } satisfies Preset.Options,
     ],
