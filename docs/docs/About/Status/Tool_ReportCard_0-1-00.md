@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 
-<!-- ![Research Grade](https://riverscapes.net/assets/images/tools/grade/TRL_3_128w.png) -->
+<!-- ![Research Grade](https://riverscapes.net/img/tools/grade/TRL_3_128w.png) -->
 
 ![Tool Logo](/img/RIM_03.png)
 
@@ -18,9 +18,9 @@ sidebar_position: 1
 | Version | [0.1.00](https://github.com/Riverscapes/RIM/releases/tag/v0.1.0) |
 | Date of Review | 2022, October |
 | Assessment Team | Wheaton & Gilbert |
-| Current Assessment | ![research](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/assets/images/tools/grade/TRL_3_32p.png) [Research Grade](https://riverscapes.net/Tools/discrimination.html#tool-grade) |
-| Target Status | ![research](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/assets/images/tools/grade/TRL_3_32p.png) [Research Grade](https://riverscapes.net/Tools/discrimination.html#tool-grade) → No further development as its own tool, Getting subsumed into ![professional](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/assets/images/tools/grade/TRL_5_32p.png) [Professional Grade](https://riverscapes.net/Tools/discrimination.html#professional-grade) [QRiS](https://qris.riverscapes.net) |
-| Riverscapes Compliance | ![Riverscapes Compliant](https://riverscapes.net/assets/images/rc/RiverscapesCompliantPending_28.png) [Pending Riverscapes Compliance](https://riverscapes.net/Tools/#riverscapes-compliant-tools) - Because it is Research Grade |
+| Current Assessment | ![research](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/img/tools/grade/TRL_3_32p.png) [Research Grade](https://riverscapes.net/Tools/discrimination.html#tool-grade) |
+| Target Status | ![research](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/img/tools/grade/TRL_3_32p.png) [Research Grade](https://riverscapes.net/Tools/discrimination.html#tool-grade) → No further development as its own tool, Getting subsumed into ![professional](https://raw.githubusercontent.com/Riverscapes/riverscapes-website/master/img/tools/grade/TRL_5_32p.png) [Professional Grade](https://riverscapes.net/Tools/discrimination.html#professional-grade) [QRiS](https://qris.riverscapes.net) |
+| Riverscapes Compliance | ![Riverscapes Compliant](https://riverscapes.net/img/rc/RiverscapesCompliantPending_28.png) [Pending Riverscapes Compliance](https://riverscapes.net/Tools/#riverscapes-compliant-tools) - Because it is Research Grade |
 | Assessment Rationale | The RIM Tool 0.1.0 is very deserving of both a [Research Grade](https://riverscapes.net/Tools/discrimination.html#tool-grade) distinction and [Pending Riverscapes Compliance](https://riverscapes.net/Tools/#riverscapes-compliant-tools). It is a perfect example of where we hope researchers and graduate students can get a tool (without too much extra work), so that at least the outputs of the tool can be [**F**-**A**-**I**-**R**](https://rim.riverscapes.net/About/Status/Tool_ReportCard_0-1-00#f-a-i-r-assessment) even if the tool itself is only likely to be reused by a small number. Refactoring this tool into its own Professional Grade tool (or as planned, as part of [QRiS](https://qris.riverscapes.net)) is straight forward, but also beyond the scope of a Masters or most PhDs (requires professional software development help). Though the tool is not *ready* to be used by large audiences, the protocol it lays out is, and the [riverscape project datasets](https://rim.riverscapes.net/Examples/ExampleData) it packages are highly consumable. |
 
 
@@ -60,7 +60,7 @@ Fully Developed: <i class="fa fa-battery-full" aria-hidden="true"></i>
 | FAIR Principle | Value | Evaluation | Comments |
 | --- | --- | --- | --- |
 | **METADATA**      |       |                                                        |           |
-| **F**indable      | Yes with [RAVE](https://rave.riverscapes.net). | Battery Half | [Riverscapes Projects](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/) ![Riverscapes Project Icon](https://riverscapes.net/assets/images/data/RiverscapesProject_24.png) are used, Metadata is easy to incorporate. Good project level metadata is included and easy to find in RAVE and Warehouse. However, there is virtually no layer level metadata the tool writes. The notable exceptions are the Basemaps (thank you). Even the context layers that come from other Riverscapes Project don't bring the Metadata along. |
+| **F**indable      | Yes with [RAVE](https://rave.riverscapes.net). | Battery Half | [Riverscapes Projects](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/) ![Riverscapes Project Icon](https://riverscapes.net/img/data/RiverscapesProject_24.png) are used, Metadata is easy to incorporate. Good project level metadata is included and easy to find in RAVE and Warehouse. However, there is virtually no layer level metadata the tool writes. The notable exceptions are the Basemaps (thank you). Even the context layers that come from other Riverscapes Project don't bring the Metadata along. |
 | **A**vailable     | Well, yes, the Metadata is available easily through Warehouse and RAVE. | Battery Quarter | Low score provided because not much is populated to be available. |
 | **I**nteroperable | Yes, compliant with [Warehouse Standards](https://riverscapes.net/Data_Warehouses/) | Battery Full | This gets a full-score just for being Riverscapes-Compliant projects.|
 | **R**e-useable    | Yes, but again needs full populating. | Battery Quarter | Easy to consume, but not enough to consume. Incomplete. |
@@ -68,7 +68,7 @@ Fully Developed: <i class="fa fa-battery-full" aria-hidden="true"></i>
 | **F**indable      | Easily findable in Warehouse.| Battery Full | Current version of Warehouse requires account to access data. Also no DOIs currently minted. Easy to address in next version of Warehouse and with Zenodo. |
 | **A**vailable     | Data that developer produced with tool is [available in warehouse](https://rim.riverscapes.net/Examples/ExampleData) | Battery Full | Will benefit from improvements in new releasees of warehouse without developer needing to do anything. |
 | **I**nteroperable | Most of the data is geospatial and in standard shapefile and raster formats. Other data is simple CSV, images and PDFs. All are easy to work with in multiple GIS platforms. | Battery Half | Although these are standard data outputs, the feature classes could have improved interoperability in geopackages (i.e. as SQLite databases) and easier to harvest info, while ditching sidecar files of shapefiles. The rasters are nice geoTIFF formats and compressed. |
-| **R**e-useable    | Primary outputs are GIS and because of [Riverscapes Projects](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/) ![Riverscapes Project Icon](https://riverscapes.net/assets/images/data/RiverscapesProject_24.png) pacaging, these are highly resuseable | Battery Full | Nice job. |
+| **R**e-useable    | Primary outputs are GIS and because of [Riverscapes Projects](https://riverscapes.net/Tools/Technical_Reference/Documentation_Standards/Riverscapes_Projects/) ![Riverscapes Project Icon](https://riverscapes.net/img/data/RiverscapesProject_24.png) pacaging, these are highly resuseable | Battery Full | Nice job. |
 | **TOOL**          |       |                                                        |           |
 | **F**indable      | Tool is clearly available as opensource in GitHub and tracked in Zendo (see [here](https://rim.riverscapes.net/About/license)) | Battery Full | Follows best standards of practice. |
 | **A**vailable     | Same as above. | Battery Full | Follows best standards of practice |
@@ -83,11 +83,11 @@ All Riverscapes tools package up data in Riverscapes Projects. This section eval
 
 | Criteria | Value | Evaluation | Comments |
 | --- | --- | --- | --- |
-| [RV](https://rave.riverscapes.net)-Compliant Riverscapes Projects<br/>![Riverscapes Project Icon](https://riverscapes.net/assets/images/data/RiverscapesProject_24.png) | Checkmark: Nicely and logically packaged projects. | Battery Three-Quarters | A few minor housekeeping things still identified (See issue [#14](https://github.com/Riverscapes/RIM/issues/14)). |
+| [RV](https://rave.riverscapes.net)-Compliant Riverscapes Projects<br/>![Riverscapes Project Icon](https://riverscapes.net/img/data/RiverscapesProject_24.png) | Checkmark: Nicely and logically packaged projects. | Battery Three-Quarters | A few minor housekeeping things still identified (See issue [#14](https://github.com/Riverscapes/RIM/issues/14)). |
 | [RV](https://rave.riverscapes.net) Business Logic Defined? | Checkmark: [Innundation.xml](https://github.com/Riverscapes/RiverscapesXML/blob/master/RaveBusinessLogic/V1/Inundation.xml) | Battery Three-Quarters | A few minor issues around polygons still incorrectly identified as polylines. Easy fixes. |
-| Riverscapes Projects hosted in public-facing [Riverscapes Warehouse(s)](https://riverscapes.net/Data_Warehouses/#warehouse-explorer-concept)<br/>![Warehouse Cloud Icon](https://riverscapes.net/assets/images/data/RiverscapesWarehouseCloud_24.png) | Checkmark: See [Example Data](https://rim.riverscapes.net/Examples/ExampleData) | Battery Empty |  |
+| Riverscapes Projects hosted in public-facing [Riverscapes Warehouse(s)](https://riverscapes.net/Data_Warehouses/#warehouse-explorer-concept)<br/>![Warehouse Cloud Icon](https://riverscapes.net/img/data/RiverscapesWarehouseCloud_24.png) | Checkmark: See [Example Data](https://rim.riverscapes.net/Examples/ExampleData) | Battery Empty |  |
 | Riverscapes Projects connected to [Web-Maps](https://riverscapes.net/Data_Warehouses#web-maps) | Checkmark: See [Exploring RIM Project in Web RV](https://rim.riverscapes.net/Documentation/Viewing#exploring-rim-project-in-web-rv). | Battery Half | Thanks to WebRV, yes there are nice webmaps. However, the raster resolution of the key bases (i.e. basemaps) are so ridiculously downgraded for tileizing that it really limits the ability of the user to evaluate without downloading to desktop GIS. This is a problem (see issue [#486](https://github.com/Riverscapes/RiverscapesXML/issues/486)) |
-| Riverscapes Projects connected to Field [Apps](https://riverscapes.net/Data_Warehouses#apps---pwas)<br/>![PWA Icon](https://riverscapes.net/assets/images/tools/PWA.png) | No | Battery Empty | This is intended with [QRiS](https://qris.riverscapes.net) and QField. |
+| Riverscapes Projects connected to Field [Apps](https://riverscapes.net/Data_Warehouses#apps---pwas)<br/>![PWA Icon](https://riverscapes.net/img/tools/PWA.png) | No | Battery Empty | This is intended with [QRiS](https://qris.riverscapes.net) and QField. |
 
 ## Developer Intent
 
@@ -102,9 +102,9 @@ After the pilot work, [BLM](https://www.blm.gov/programs/aquatics) awarded USU a
 If you share the above vision, get in touch with the [developers](https://rim.riverscapes.net/About/acknowledgements#rim-development-team) to support/fund the effort. 
 
 --------------------
-<!-- ![Riverscapes Consortium Logo](https://riverscapes.net/assets/images/rc/RiverscapesConsortium_Logo_Black_BHS_200w.png) -->
+<!-- ![Riverscapes Consortium Logo](https://riverscapes.net/img/rc/RiverscapesConsortium_Logo_Black_BHS_200w.png) -->
 The [Riverscapes Consortium's](https://riverscapes.net) Technical Committee provides report cards for tools either deemed as "[riverscapes-compliant](https://riverscapes.net/Tools/#riverscapes-compliant)"  or 
 "
 [pending riverscapes-compliance](https://riverscapes.net/Tools/#tools-pending-riverscapes-compliance)
 " 
-<!-- ![Pending Riverscapes Compliance Icon](https://riverscapes.net/assets/images/rc/RiverscapesCompliantPending_28.png). -->
+<!-- ![Pending Riverscapes Compliance Icon](https://riverscapes.net/img/rc/RiverscapesCompliantPending_28.png). -->

@@ -11,8 +11,8 @@ RIM was part of graduate research supported by the [Utah Public Lands Initiative
 
 
 
-<!-- [![USFS Logo](https://qris.riverscapes.net/assets/images/logos/USFS.png)](https://www.fs.usda.gov/detail/r4/landmanagement/resourcemanagement/?cid=stelprd3845865) -->
-[![BLM Logo](http://lowtechpbr.restoration.usu.edu/assets/images/sponsors/blm.png)](https://www.blm.gov/programs/aquatics)
+<!-- [![USFS Logo](https://qris.riverscapes.net/img/logos/USFS.png)](https://www.fs.usda.gov/detail/r4/landmanagement/resourcemanagement/?cid=stelprd3845865) -->
+[![BLM Logo](http://lowtechpbr.restoration.usu.edu/img/sponsors/blm.png)](https://www.blm.gov/programs/aquatics)
 
 Special thanks to Carl Saunders (USFS) and Alden Shalcross (BLM) for their continued support of the RIM effort.
 
