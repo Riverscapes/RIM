@@ -16,7 +16,7 @@ import { ToolsWrapper } from '@site/src/components/ToolsWrapper/ToolsWrapper';
   cards={[{
     title: "RIM Report Card",
     description: "See RIM's Report Card from the Riverscapes Consortium.",
-    toolUrl: "/docs/About/Status/Tool_ReportCard_0-1-00"
+    toolUrl: "/About/Status/Tool_ReportCard_0-1-00"
   }]}
 />
 
