@@ -14,12 +14,12 @@ RIM was part of graduate research supported by the [Utah Public Lands Initiative
   logos={[
    {
      imageUrl: "/img/logos/USFSTransparentBG.png",
-     name: "US Forest Service - PIBO Program",
+     name: "US Forest Service",
      url: "https://www.fs.usda.gov/detail/r4/landmanagement/resourcemanagement/?cid=stelprd3845865"
     },
     {
-     imageUrl: "/img/logos/USFSTransparentBG.png",
-     name: "Bureau of Land Management - Aquatics Program",
+     imageUrl: "/img/logos/blm_logo_transparent.png",
+     name: "Bureau of Land Management",
      url: "https://www.blm.gov/programs/aquatics"
     },  
     {
