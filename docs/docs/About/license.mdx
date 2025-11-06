@@ -1,10 +1,11 @@
 ---
-title: Source Code & License
+title: Source Code
 description: Source code and license information for RIM.
 sidebar_position: 2
 ---
 
 ## RIM 1.0
+RIM is no longer a tool or toolbox, but instead is accessed via protocols in the Riverscapes Studio - QRiS. 
 ### Mapping RIM Features in Data Capture Events
 To deploy the RIM methods, we have developed a few different protocols in Riverscapes Studio ([QRiS](https://qris.riverscapes.net)) to assist. Specifically the primary RIM layers of `inundation extents`, `dam crests` and `thalwegs` are included in:
 - The LTPBR V2 Protocol ([protocol page](https://qris.riverscapes.net/technical-reference/protocols/protocol-library/dce-protocols/ltpbr-dce-protocol); [protocol XML](https://github.com/Riverscapes/RiverscapesXML/blob/master/QRiS/protocols/rim.xml))
@@ -12,11 +13,16 @@ To deploy the RIM methods, we have developed a few different protocols in Rivers
 
 See [here for a tutorial on how to use the Inundation layers](https://qris.riverscapes.net/tutorials/trainings-workshops/usu-ltpbr-level3/cewa6626/#k-assess-the-riverscape-potential-to-support-wood-accumulation-and-beaver-activity) in QRiS. 
 
-For the Rivers
-
 ### Generating RIM Metrics
-Once you have mapped the RIM features (or geomorphic context features), you can use sample frames in QRiS and Analyses to generate the metrics included in 0.1.0. Unlike 0.1.0, which calculates those metrics that fall within the mapped riverscape, with QRiS you can have as many different sample frames as you like and it will calculate the same metrics from the RIM data in (a) data capture event(s) for each sample frame. 
 
+Once you have mapped the RIM features (or geomorphic context features), you can use [sample frames](https://qris.riverscapes.net/software-help/inputs/sample-frames) in QRiS and [analyses](https://qris.riverscapes.net/software-help/analyses) to generate the [metrics](https://qris.riverscapes.net/technical-reference/metric_calculations/) included in 0.1.0. However, unlike 0.1.0, which calculates those metrics that fall within the mapped riverscape, with QRiS you can have as many different sample frames as you like and it will calculate the same metrics from the RIM data in (a) data capture event(s) for each sample frame. 
+
+### Hydrogeomorphic Context Features in Data Capture Events
+For the site and hydrogeomorphic context layers (e.g., valley setting, confinement, floodplain type, etc.), these are included in the [Geomorphic Context Protocol](https://qris.riverscapes.net/technical-reference/protocols/protocol-library/dce-protocols/geomorphic-context-dce-protocol) ([protocol XML](https://github.com/Riverscapes/RiverscapesXML/blob/master/QRiS/protocols/geomorphic-context.xml)).
+
+
+
+------
 ## Original RIM 0.1.0
 :::warning
 The original source code will remain available, but is not supported. That code was used to generate the original Baretlt (2021) analysis was based off, but the methods have been migrated to protocols within QRiS (see above).
@@ -31,11 +37,12 @@ In 2023, development of RIM shifted from its own ArcToolbox into a [Protocol](ht
   cards={[{
     title: "RIM Report Card",
     description: "See RIM's Report Card from the Riverscapes Consortium.",
-    toolUrl: "/About/Status/Tool_ReportCard_0-1-00"
+    toolUrl: "/About/Status/Tool_ReportCard_0-1-00",
+    logoUrl: "/img/technical-reference.png"
   }]}
 />
 
-## Source Code for 0.1.1
+#### Source Code for 0.1.1
 The RIM Plugin source code is available on [GitHub](https://github.com/Riverscapes/RIM):
 
 
@@ -44,7 +51,8 @@ The RIM Plugin source code is available on [GitHub](https://github.com/Riverscap
   cards={[{
     title: "View RIM Source Code on GitHub",
     description: "The RIM Plugin source code is available on GitHub.",
-    toolUrl: "https://github.com/Riverscapes/RIM"
+    toolUrl: "https://github.com/Riverscapes/RIM",
+    logoUrl: "/img/github.png"
   }]}
 />
 
@@ -58,10 +66,14 @@ Cite as:
 
 
 
-### License
+#### License
 
-[
-  ![GNU Logo](https://www.gnu.org/graphics/heckert_gnu.transp.small.png)
-](https://www.gnu.org/licenses/gpl-3.0.en.html)
-RIM is licensed under the [GNU Public License Version 3](https://github.com/Riverscapes/RIM/blob/docs/LICENSE).
 
+<ToolsWrapper
+  cards={[{
+    title: "GNU Public License Version 3",
+    description: "The RIM 0.1.0 is licensed under a GNU Public License Version 3.",
+    toolUrl: "https://github.com/Riverscapes/RIM/blob/docs/LICENSE",
+    logoUrl: "https://www.gnu.org/graphics/heckert_gnu.transp.small.png"
+  }]}
+/>
