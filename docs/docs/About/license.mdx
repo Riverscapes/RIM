@@ -3,12 +3,27 @@ title: License & Source Code
 sidebar_position: 2
 ---
 
+## RIM 1.0
+### Mapping RIM Features in Data Capture Events
+To deploy the RIM methods, we have developed a few different protocols in Riverscapes Studio ([QRiS](https://qris.riverscapes.net)) to assist. Specifically the primary RIM layers of `inundation extents`, `dam crests` and `thalwegs` are included in:
+- The LTPBR V2 Protocol ([protocol page](https://qris.riverscapes.net/technical-reference/protocols/protocol-library/dce-protocols/ltpbr-dce-protocol); [protocol XML](https://github.com/Riverscapes/RiverscapesXML/blob/master/QRiS/protocols/rim.xml))
+- An experimetnal RIM 1.0 Protocol ([protocol XML](https://github.com/Riverscapes/RiverscapesXML/blob/master/QRiS/protocols/rim.xml))
 
-The Riverscapes Inundation Mapping (RIM) Tool is:
-- [Open-Source](https://github.com/Riverscapes/RIM)
-- Striving to follow [FAIR](https://force11.org/info/the-fair-data-principles/) Principles
-- [Pending Riverscapes Compliance](https://riverscapes.net/Tools/#riverscapes-compliant-tools) 
+See [here for a tutorial on how to use the Inundation layers](https://qris.riverscapes.net/tutorials/trainings-workshops/usu-ltpbr-level3/cewa6626/#k-assess-the-riverscape-potential-to-support-wood-accumulation-and-beaver-activity) in QRiS. 
 
+For the Rivers
+
+### Generating RIM Metrics
+Once you have mapped the RIM features (or geomorphic context features), you can use sample frames in QRiS and Analyses to generate the metrics included in 0.1.0. Unlike 0.1.0, which calculates those metrics that fall within the mapped riverscape, with QRiS you can have as many different sample frames as you like and it will calculate the same metrics from the RIM data in (a) data capture event(s) for each sample frame. 
+
+## Original RIM 0.1.0
+:::warning
+The original source code will remain available, but is not supported. That code was used to generate the original Baretlt (2021) analysis was based off, but the methods have been migrated to protocols within QRiS (see above).
+:::
+
+**RIM** [0.1.0](https://github.com/Riverscapes/RIM/releases/tag/v0.1.0) was originally published as a BETA [research-grade tool](https://docs.riverscapes.net/standards/discrimination). It was a mix of Python and R with ArcPY dependencies. It had been successfully deployed by others, but was finicky to deploy.
+
+In 2023, development of RIM shifted from its own ArcToolbox into a [Protocol](https://qris.riverscapes.net/technical-reference/protocols/) implemented as part of protocols in data capture events in Riverscapes Studio for QGIS or [QRiS](https://qris.riverscapes.net/) thanks to support from the USFS and NOAA.
 
 
 <ToolsWrapper
@@ -19,7 +34,7 @@ The Riverscapes Inundation Mapping (RIM) Tool is:
   }]}
 />
 
-## Source Code
+## Source Code for 0.1.1
 The RIM Plugin source code is available on [GitHub](https://github.com/Riverscapes/RIM):
 
 
@@ -42,7 +57,7 @@ Cite as:
 
 
 
-## License
+### License
 
 [
   ![GNU Logo](https://www.gnu.org/graphics/heckert_gnu.transp.small.png)
