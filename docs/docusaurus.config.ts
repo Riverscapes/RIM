@@ -63,7 +63,7 @@ const config: Config = {
       title: 'RIM', // Navbar title
       logo: {
         alt: 'Riverscapes Studio Logo', // Logo alt text
-        src: 'img/logo.png', // Logo image path
+        src: 'img/RIM.svg', // Logo image path
       },
       items: [
         // {
