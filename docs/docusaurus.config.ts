@@ -60,7 +60,7 @@ const config: Config = {
     },
 
     navbar: {
-      title: 'RIM', // Navbar title
+      title: 'RIM - Riverscapes Innundation Mapper', // Navbar title
       logo: {
         alt: 'Riverscapes Studio Logo', // Logo alt text
         src: 'img/RIM.svg', // Logo image path
