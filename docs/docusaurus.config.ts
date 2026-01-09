@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic'
 const config: Config = {
   title: 'Riverscapes Innundation Mapper', // Site title displayed in the browser tab
   tagline: 'RIM', // Short description shown in meta tags
-  favicon: 'favicon.ico', // Path to site favicon
+  favicon: 'https://cdn.riverscapes.net/icons/network-models/rim/rim.svg', // Path to site favicon
 
   future: {
     v4: true, // Enables compatibility with upcoming Docusaurus v4 features
@@ -63,7 +63,7 @@ const config: Config = {
       title: 'RIM - Riverscapes Innundation Mapper', // Navbar title
       logo: {
         alt: 'Riverscapes Studio Logo', // Logo alt text
-        src: 'img/RIM.svg', // Logo image path
+        src: 'https://cdn.riverscapes.net/icons/network-models/rim/rim.svg', // Logo image path
       },
       items: [
         // {
