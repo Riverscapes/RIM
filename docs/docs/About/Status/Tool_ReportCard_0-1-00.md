@@ -6,7 +6,7 @@ sidebar_position: 1
 
 <!-- ![Research Grade](https://riverscapes.net/img/tools/grade/TRL_3_128w.png) -->
 
-![Tool Logo](/img/RIM_03.png)
+![Tool Logo](https://cdn.riverscapes.net/icons/products/data-exchange/rim.svg)
 
 **RIM** consists of some ArcPy scripts that take care of file housekeeping and metric calculation for mapping (i.e. digitizing) riverscape inundation patterns for individual "data capture events".  This report card communicates RIM's compliance with the Riverscape Consortium's published [tool standards](https://riverscapes.net/Tools).
 
